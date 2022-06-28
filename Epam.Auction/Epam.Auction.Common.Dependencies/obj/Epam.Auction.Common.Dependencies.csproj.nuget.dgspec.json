@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
+        "projectName": "Epam.Auction.BLL.BLL",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
+              },
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
+        "projectName": "Epam.Auction.BLL.Interfaces",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
+        "projectName": "Epam.Auction.Common.Dependencies",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj"
+              },
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
+              },
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              },
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+        "projectName": "Epam.Auction.Common.Entites",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
+        "projectName": "Epam.Auction.DAL.Interfaces",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
+        "projectName": "Epam.Auction.DAL.SqlDAL",
+        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
+        "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

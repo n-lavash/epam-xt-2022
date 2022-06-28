@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JLlLLy691xP1ZJBXLyFPRQY8Vnn29DQcABNJD3n/0clxHl51SvJku7Af5f7s8b5J4Kl0CiTQq4oCvS493vDpKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\levas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
