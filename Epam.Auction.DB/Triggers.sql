@@ -1,0 +1,14 @@
+CREATE TRIGGER Role_Insert
+ON Role
+INSTEAD OF INSERT AS
+BEGIN
+DECLARE @Role VARCHAR(16) = (SELECT Name_Role FROM INSERTED)
+DECLARE @Last_ID int = (SELECT MAX(ID_Role) FROM Role)
+IF (@Last_ID < 2 OR @Last_ID IS NULL)
+	INSERT INTO Role VALUES(@Role)
+ELSE
+	BEGIN
+	ROLLBACK TRANSACTION
+	RAISERROR ('Exceeded the number of possible fields', 16, 10)
+	END
+END
