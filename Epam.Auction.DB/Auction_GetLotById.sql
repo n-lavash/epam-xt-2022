@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Auction_GetLotById
+	@ID int
+as
+BEGIN
+	SET	NOCOUNT ON;
+	SELECT TOP 1
+		ID, Name, Date_added, Price, Description
+	FROM Lots
+	WHERE ID = @ID
+END

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjeT58SqX2d1DLMrDOTEYCq3ZjhzF1uQVvH+kbD7opsD6iNlFj9+IcBopQdtGRNxMiKkxQMBmfO8uhz0IoJFMw==",
+  "dgSpecHash": "GZ29oi6U/Cyt1Jp1oepXI1DLgN4I0sm7mQQXp94JVrxjEouvHjqM6rX5/acjdYf6K7kYbTdJtjfLV7RkkwGuYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
+  "projectFilePath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\levas\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

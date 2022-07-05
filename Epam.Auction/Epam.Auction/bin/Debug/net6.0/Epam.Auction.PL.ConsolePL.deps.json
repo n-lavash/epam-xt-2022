@@ -9,7 +9,8 @@
       "Epam.Auction.PL.ConsolePL/1.0.0": {
         "dependencies": {
           "Epam.Auction.BLL.BLL": "1.0.0",
-          "Epam.Auction.DAL.SqlDAL": "1.0.0",
+          "Epam.Auction.Common.Dependencies": "1.0.0",
+          "Epam.Auction.Common.Entites": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
@@ -196,6 +197,7 @@
       "Epam.Auction.BLL.BLL/1.0.0": {
         "dependencies": {
           "Epam.Auction.BLL.Interfaces": "1.0.0",
+          "Epam.Auction.Common.Entites": "1.0.0",
           "Epam.Auction.DAL.Interfaces": "1.0.0"
         },
         "runtime": {
@@ -208,6 +210,17 @@
         },
         "runtime": {
           "Epam.Auction.BLL.Interfaces.dll": {}
+        }
+      },
+      "Epam.Auction.Common.Dependencies/1.0.0": {
+        "dependencies": {
+          "Epam.Auction.BLL.BLL": "1.0.0",
+          "Epam.Auction.BLL.Interfaces": "1.0.0",
+          "Epam.Auction.DAL.Interfaces": "1.0.0",
+          "Epam.Auction.DAL.SqlDAL": "1.0.0"
+        },
+        "runtime": {
+          "Epam.Auction.Common.Dependencies.dll": {}
         }
       },
       "Epam.Auction.Common.Entites/1.0.0": {
@@ -355,6 +368,11 @@
       "sha512": ""
     },
     "Epam.Auction.BLL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Epam.Auction.Common.Dependencies/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

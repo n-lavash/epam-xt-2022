@@ -9,6 +9,7 @@
       "Epam.Auction.BLL.BLL/1.0.0": {
         "dependencies": {
           "Epam.Auction.BLL.Interfaces": "1.0.0",
+          "Epam.Auction.Common.Entites": "1.0.0",
           "Epam.Auction.DAL.Interfaces": "1.0.0"
         },
         "runtime": {

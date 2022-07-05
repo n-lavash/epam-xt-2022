@@ -9,23 +9,40 @@ namespace Epam.Auction.Common.Entites
 {
     public class User
     {
-        public User(int idUser, string name, DateTime birthdate)
+        public User(int id, DateTime birthdate, string name, string email)
         {
-            this.idUser = idUser;
-            this.name = name;
-            this.birthdate = birthdate;
+            Id = id;
+            Birthdate = birthdate;
+            Name = name;
+            RegDate = DateTime.Now;
+            Email = email;
         }
 
-        public int idUser { get; set; }
-        public int idAccount { get; set; }
-        public string login { get; private set; }
-        public string password { get; private set; }
-        public string role { get; private set; }
-        public DateTime birthdate { get; private set; }
-        public string name { get; private set; }
-        public DateTime regDate { get;}
-        public string email { get; private set; }
+        public User(int id, DateTime birthdate, string name, DateTime regDate, string email)
+        {
+            Id = id;
+            Birthdate = birthdate;
+            Name = name;
+            RegDate = regDate;
+            Email = email;
+        }
 
-        public override string? ToString() => JsonConvert.SerializeObject(this);
+        public int Id { get; set; }
+        public DateTime Birthdate { get; set; }
+        public string Name { get; set; }
+        public DateTime RegDate { get; set; }
+        public string Email { get; set; }
+
+        public override string? ToString()
+        {
+            var result = new StringBuilder();
+            result.Append("\nUser number: ").Append(Convert.ToInt32(Id)).
+                Append("\n\tName: ").Append(Name).
+                Append("\n\tEmail: ").Append(Email).
+                Append("\n\tBirth date: ").Append(Birthdate).
+                Append("\n\tRegistration date: ").Append(RegDate);
+
+            return result.ToString();
+        }
     }
 }

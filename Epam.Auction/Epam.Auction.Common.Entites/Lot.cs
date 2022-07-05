@@ -9,21 +9,40 @@ namespace Epam.Auction.Common.Entites
 {
     public class Lot
     {
-        public int id { get; private set; }
-        public string name { get; private set; }
-        public DateTime dateAdded { get; private set; }
-        public double price { get; private set; }
-        public string description { get; private set; }
+        public int Id { get;}
+        public string Name { get; set; }
+        public DateTime DateAdded { get; }
+        public double Price { get; set; }
+        public string Description { get; set; }
 
         public Lot(int id, string name, DateTime dateAdded, double price, string description)
         {
-            this.id = id;
-            this.name = name;
-            this.dateAdded = dateAdded;
-            this.price = price;
-            this.description = description;
+            Id = id;
+            Name = name;
+            DateAdded = dateAdded;
+            Price = price;
+            Description = description;
         }
 
-        public override string? ToString() => JsonConvert.SerializeObject(this);
+        public Lot(int id, string name, double price, string description)
+        {
+            Id = id;
+            Name = name;
+            DateAdded = DateTime.Now;
+            Price = price;
+            Description = description;
+        }
+
+        public override string? ToString()
+        {
+            var result = new StringBuilder();
+            result.Append("\nLot number: ").Append(Id).
+                Append("\n\tName: ").Append(Name).
+                Append("\n\tDate added: ").Append(DateAdded).
+                Append("\n\tPrice: ").Append(Price).
+                Append("\n\tDescription: ").Append(Description);
+
+            return result.ToString();
+        }
     }
 }

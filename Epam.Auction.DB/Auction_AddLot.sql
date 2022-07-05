@@ -3,14 +3,14 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE PROCEDURE dbo.Auction_AddLot
-	@Name_Lot nvarchar(255),
+CREATE PROCEDURE Auction_AddLot
+	@Name nvarchar(255),
 	@Date_added datetime,
-	@Price float,
+	@Price decimal(19,4),
 	@Description nvarchar(max)
 as
 BEGIN
-	SET	NOCOUNT OFF;
-	INSERT INTO dbo.Lot(Name_Lot, Date_added, Price, Decription)
-	VALUES(@Name_Lot, @Date_added, @Price, @Description)
+	SET	NOCOUNT ON;
+	INSERT INTO Lots(Name, Date_added, Price, Description)
+	VALUES(@Name, @Date_added, @Price, @Description)
 END

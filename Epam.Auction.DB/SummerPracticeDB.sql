@@ -5,36 +5,33 @@ CREATE DATABASE Auction
 
 USE Auction
 
--- только 2 поля
-create table Role (
-ID_Role int IDENTITY(1,1) CONSTRAINT PK_Role PRIMARY KEY NOT NULL,
-Name_Role nvarchar(25) NOT NULL)
+create table Roles (
+ID int IDENTITY(1,1) CONSTRAINT PK_Roles PRIMARY KEY NOT NULL,
+Name nvarchar(25) NOT NULL)
 
 create table Users (
-ID_User int IDENTITY(1,1) CONSTRAINT PK_Users PRIMARY KEY NOT NULL,
-ID_Account int  NOT NULL,
+ID int IDENTITY(1,1) CONSTRAINT PK_Users PRIMARY KEY NOT NULL,
 Birthdate datetime NOT NULL,
-Name_User nvarchar(255) NOT NULL,
+Name nvarchar(255) NOT NULL,
 Registration_date datetime NOT NULL,
 Email nvarchar(255) NOT NULL)
 
-create table Lot (
-ID_Lot int IDENTITY(1,1) CONSTRAINT PK_Lot PRIMARY KEY NOT NULL,
-Name_Lot nvarchar(255) NOT NULL,
+create table Lots (
+ID int IDENTITY(1,1) CONSTRAINT PK_Lots PRIMARY KEY NOT NULL,
+Name nvarchar(255) NOT NULL,
 Date_added datetime NOT NULL,
-Price float NOT NULL,
-Decription nvarchar(400))
+Price decimal(19,4) NOT NULL,
+Description nvarchar(max))
 
-create table User_Lot (
-ID_User int FOREIGN KEY REFERENCES Users(ID_User) NOT NULL,
-ID_Lot int FOREIGN KEY REFERENCES Lot(ID_Lot) NOT NULL)
+create table UsersToLots (
+UserID int FOREIGN KEY REFERENCES Users(ID) NOT NULL,
+LotID int FOREIGN KEY REFERENCES Lots(ID) NOT NULL)
 
 create table AccountDetails (
-ID_Account int IDENTITY(1,1) CONSTRAINT PK_AccountDetails PRIMARY KEY NOT NULL,
-ID_User int FOREIGN KEY REFERENCES Users(ID_User) NOT NULL,
-Login_User nvarchar(255) NOT NULL,
-Password_User nvarchar(255) NOT NULL)
+ID int IDENTITY(1,1) CONSTRAINT PK_AccountDetails PRIMARY KEY FOREIGN KEY REFERENCES Users(ID) NOT NULL,
+Login nvarchar(255) NOT NULL,
+Password binary(64) NOT NULL)
 
-create table Account_Role (
-ID_Role int FOREIGN KEY REFERENCES Role(ID_Role) NOT NULL,
-ID_Account int FOREIGN KEY REFERENCES AccountDetails(ID_Account) NOT NULL)
+create table AccountsToRole (
+RoleID int FOREIGN KEY REFERENCES Roles(ID) NOT NULL,
+AccountID int FOREIGN KEY REFERENCES AccountDetails(ID) NOT NULL)

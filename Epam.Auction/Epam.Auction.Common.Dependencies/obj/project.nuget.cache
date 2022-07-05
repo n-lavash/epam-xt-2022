@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KROzIERz3fLqgDtlfiNFJDyMEj0xXb9/W4vktNM3whQQ/wqGGH6DWWtuQz9c4neeeuWfvmNv1TODBa3RhvCqwg==",
+  "dgSpecHash": "n8kdK2BjFOEzmbZur5AchYOQiZL5ZeTx7S2tO3ee4BFUcwoI+4loXNOO0WlGSCs9S4QJPGstVKM2p+Rbx+hRjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
+  "projectFilePath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levas\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\levas\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

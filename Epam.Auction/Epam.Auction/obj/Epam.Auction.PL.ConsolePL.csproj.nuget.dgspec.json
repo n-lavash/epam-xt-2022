@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj": {}
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
         "projectName": "Epam.Auction.BLL.BLL",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              },
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
               }
             }
           }
@@ -65,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
         "projectName": "Epam.Auction.BLL.Interfaces",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
               }
             }
           }
@@ -123,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
         "projectName": "Epam.Auction.Common.Dependencies",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -147,17 +150,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.Interfaces\\Epam.Auction.BLL.Interfaces.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj"
               }
             }
           }
@@ -190,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
         "projectName": "Epam.Auction.Common.Entites",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -250,14 +253,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
         "projectName": "Epam.Auction.DAL.Interfaces",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -274,8 +277,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
               }
             }
           }
@@ -308,14 +311,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
         "projectName": "Epam.Auction.DAL.SqlDAL",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\Epam.Auction.DAL.SqlDAL.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.SqlDAL\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.SqlDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -332,8 +335,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.DAL.Interfaces\\Epam.Auction.DAL.Interfaces.csproj"
               }
             }
           }
@@ -376,14 +379,14 @@
         }
       }
     },
-    "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj": {
+    "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj",
+        "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj",
         "projectName": "Epam.Auction.PL.ConsolePL",
-        "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj",
+        "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction\\Epam.Auction.PL.ConsolePL.csproj",
         "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction\\obj\\",
+        "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -400,14 +403,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Dependencies\\Epam.Auction.Common.Dependencies.csproj"
               },
-              "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
-                "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
+              "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj": {
+                "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj"
               }
             }
           }

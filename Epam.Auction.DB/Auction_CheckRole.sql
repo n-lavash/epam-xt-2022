@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Auction_CheckRole
+	@ID int
+AS
+BEGIN
+	SET NOCOUNT ON;
+	DECLARE @Name nvarchar(25) = 'admin'
+	DECLARE @RoleID int = (SELECT ID FROM Roles WHERE Name = @Name)
+	SELECT COUNT(AccountID) FROM AccountsToRole WHERE AccountID = @ID AND RoleID = @RoleID
+END
+GO

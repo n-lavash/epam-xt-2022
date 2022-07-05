@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE Auction_GetUserById
+	@ID int
+as
+BEGIN
+	SET	NOCOUNT ON;
+	SELECT TOP 1
+		ID, Birthdate, Name, Registration_date, Email
+	FROM Users
+	WHERE ID = @ID
+END

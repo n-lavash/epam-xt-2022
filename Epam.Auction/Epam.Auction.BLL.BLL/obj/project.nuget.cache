@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ElgXVxF/Kvhc4yTRs4UXus25X24IVtD/T6yj6DoeGaEE5phX6uHP+FUWnC+tw+x8oFSwzVN6qgEbKOIphF5OMg==",
+  "dgSpecHash": "V4SjvB3/0ZE9PwM6ooxaSUNd3w7jAF9t8sr6mA8VBqwT0N21pFG4lssz1yKshxjwngPGRvB1r9qwLeUIlJRpxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
+  "projectFilePath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.BLL.BLL\\Epam.Auction.BLL.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\levas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

@@ -5,15 +5,15 @@ GO
 
 CREATE PROCEDURE Auction_EditLot
 	@ID int,
-	@Name_Lot nvarchar(255),
+	@Name nvarchar(255),
 	@Date_added datetime,
-	@Price float,
-	@Decription nvarchar(max)
+	@Price decimal(19,4),
+	@Description nvarchar(max)
 AS
 BEGIN
 	SET NOCOUNT ON;
-	UPDATE dbo.Lot
-	SET Name_Lot = @Name_Lot, Date_added = @Date_added, Price = @Price, Decription = @Decription
-	WHERE ID_Lot = @ID
+	UPDATE Lots
+	SET Name = @Name, Date_added = @Date_added, Price = @Price, Description = @Description
+	WHERE ID = @ID
 END
 GO

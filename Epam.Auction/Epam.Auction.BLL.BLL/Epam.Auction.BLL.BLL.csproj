@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Epam.Auction.BLL.Interfaces\Epam.Auction.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\Epam.Auction.Common.Entites\Epam.Auction.Common.Entites.csproj" />
     <ProjectReference Include="..\Epam.Auction.DAL.Interfaces\Epam.Auction.DAL.Interfaces.csproj" />
   </ItemGroup>
 

@@ -1,1 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Epam.Auction.PL.ConsolePL;
+
+FirstPage.OpenConsole();

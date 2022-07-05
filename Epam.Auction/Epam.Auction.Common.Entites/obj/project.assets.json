@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+      "projectUniqueName": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
       "projectName": "Epam.Auction.Common.Entites",
-      "projectPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
+      "projectPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\Epam.Auction.Common.Entites.csproj",
       "packagesPath": "C:\\Users\\levas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levas\\source\\repos\\Epam.Auction\\Epam.Auction.Common.Entites\\obj\\",
+      "outputPath": "C:\\Users\\levas\\GitHub\\epam-xt-2022\\Epam.Auction\\Epam.Auction.Common.Entites\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\levas\\AppData\\Roaming\\NuGet\\NuGet.Config",
