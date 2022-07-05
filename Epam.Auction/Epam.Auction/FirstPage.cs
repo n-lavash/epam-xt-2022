@@ -630,19 +630,19 @@ namespace Epam.Auction.PL.ConsolePL
                     Bll.AddLot(new Lot(id, name, price, description));
 
                     Console.WriteLine("\n Added lot:");
-                    FirstPage.ShowLot(id);
+                    ShowLot(id);
 
                 }
                 catch (FormatException e)
                 {
                     Console.WriteLine("Invalid value entered. Back to previous page");
-                    FirstPage.StartListLotsPage();
+                    StartListLotsPage();
                 }
             }
             else
             {
                 Console.WriteLine("\nNot enough rights.");
-                FirstPage.StartListLotsPage();
+                StartListLotsPage();
             }
         }
 
@@ -666,13 +666,13 @@ namespace Epam.Auction.PL.ConsolePL
                 catch (InvalidOperationException e)
                 {
                     Console.WriteLine(e.Message);
-                    FirstPage.SelectLot();
+                    SelectLot();
                 }
             }
             else
             {
                 Console.WriteLine("\nNot enough rights.");
-                FirstPage.StartListLotsPage();
+                StartListLotsPage();
             }
         }
 
@@ -712,20 +712,20 @@ namespace Epam.Auction.PL.ConsolePL
                             Bll.EditLot(id, price, true);
                             break;
                         case 0:
-                            FirstPage.SelectLot();
+                            SelectLot();
                             break;
                     }
                 }
                 catch (FormatException e)
                 {
                     Console.WriteLine("Invalid value entered. Back to previous page");
-                    FirstPage.SelectLot();
+                    SelectLot();
                 }
             }
             else
             {
                 Console.WriteLine("\nNot enough rights.");
-                FirstPage.SelectLot();
+                SelectLot();
             }
         }
 
@@ -807,15 +807,21 @@ namespace Epam.Auction.PL.ConsolePL
                         Bll.EditAccount(id, password, false);
                         break;
                     case 7:
-                        // TODO: Add method for check this role
-                        // TODO: Add method for edit role
+                        if (Bll.CheckRole(Id) > 0)
+                        {
+                            EditRole();
+                        } else
+                        {
+                            Console.WriteLine("\nNot enough rights.");
+                            EditAccount(Id);
+                        }
                         break;
                     case 0:
-                        FirstPage.SelectUser();
+                        SelectUser();
                         break;
                     default:
                         Console.WriteLine("Invalid value entered");
-                        FirstPage.SelectUser();
+                        SelectUser();
                         break;
                 }
 
@@ -823,7 +829,38 @@ namespace Epam.Auction.PL.ConsolePL
             catch (FormatException e)
             {
                 Console.WriteLine("Invalid value entered. Back to previous page");
-                FirstPage.StartListLotsPage();
+                StartListLotsPage();
+            }
+        }
+
+        private static void EditRole()
+        {
+            Console.WriteLine("\nSelect a role:" +
+                                "\n\t1 - admin" +
+                                "\n\t2 - user" +
+                                "\n\t0 - Cancel");
+
+            try
+            {
+                var action = int.Parse(Console.ReadLine());
+
+                switch (action)
+                {
+                    case 1:
+                        Bll.EditRoleInAcoount(Id, "admin");
+                        break;
+                    case 2:
+                        Bll.EditRoleInAcoount(Id, "user");
+                        break;
+                    case 0:
+                        EditAccount(Id);
+                        break;
+                }
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Invalid value entered. Back to previous page");
+                EditAccount(Id);
             }
         }
 
@@ -876,14 +913,14 @@ namespace Epam.Auction.PL.ConsolePL
                         DeleteLotForUser();
                         break;
                     case 0:
-                        FirstPage.SelectUser();
+                        SelectUser();
                         break;
                 }
             }
             catch (FormatException e)
             {
                 Console.WriteLine("Invalid value entered. Back to previous page");
-                FirstPage.SelectUser();
+                SelectUser();
             }
         }
 
@@ -905,7 +942,7 @@ namespace Epam.Auction.PL.ConsolePL
             catch (InvalidOperationException e)
             {
                 Console.WriteLine(e.Message);
-                FirstPage.SelectLot();
+                SelectLot();
             }
         }
         private static void AddLotForUser()
@@ -926,7 +963,7 @@ namespace Epam.Auction.PL.ConsolePL
             catch (InvalidOperationException e)
             {
                 Console.WriteLine(e.Message);
-                FirstPage.SelectLot();
+                SelectLot();
             }
         }
 
